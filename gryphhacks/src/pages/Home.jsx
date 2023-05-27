@@ -1,11 +1,14 @@
 import React from 'react'
+import Header from '../sitewide/Header.jsx'
+import Footer from './../sitewide/Footer'
+import LandingBody from './LandingBody'
 
-function Home() {
-  return (
+export default function Home() {
+    return (
     <div>
-      <h1>WE ARE HOMEZZZZZZZZZS</h1>
+      <Header />
+      <LandingBody />
+      <Footer />
     </div>
-  )
+  );
 }
-
-export default Home;
