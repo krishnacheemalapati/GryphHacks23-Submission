@@ -8,8 +8,6 @@ const dimensions = {
 }
 function Cam() {
 
-//   const [switchCam, setSwitchCam] = useState(true);
-
   const webcamRef = useRef();
   const canvasRef = useRef();
   const { width, height } = dimensions;
@@ -57,27 +55,17 @@ function Cam() {
       });
     };
 
-    const cleanupWebcam = () => {
-        const videoElement = webcamRef.current;
-        if (videoElement && videoElement.srcObject) {
-            const tracks = videoElement.srcObject.getTracks();
-            tracks.forEach(track => track.stop());
-        }
-    };
-
     return () => {
       if (detectionInterval) {
         clearInterval(detectionInterval);
       }
-      cleanupWebcam()
     }
 
   }, [width, height]);
 
   return (
       <div>
-        {switchCam ? <Webcam ref={webcamRef} className="webcam"/>
-         : ''}
+        <Webcam ref={webcamRef} className="webcam"/>
         <canvas ref={canvasRef} className="canvas"/>
       </div>
   );
