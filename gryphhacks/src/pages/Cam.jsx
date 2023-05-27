@@ -1,11 +1,15 @@
 import * as ml5 from "ml5";
 import Webcam from "react-webcam";
 import {useEffect, useRef} from "react";
+import switchCam from "./Layout"
 const dimensions = {
   width: 800,
   height: 500
 }
 function Cam() {
+
+//   const [switchCam, setSwitchCam] = useState(true);
+
   const webcamRef = useRef();
   const canvasRef = useRef();
   const { width, height } = dimensions;
@@ -21,7 +25,11 @@ function Cam() {
 
 
       detectionInterval = setInterval(() => {
-        detect();
+        try {
+            detect();
+        } catch (error) {
+            clearInterval(detectionInterval);
+        }
       }, 200);
     };
 
@@ -68,7 +76,8 @@ function Cam() {
 
   return (
       <div>
-        <Webcam ref={webcamRef} className="webcam"/>
+        {switchCam ? <Webcam ref={webcamRef} className="webcam"/>
+         : ''}
         <canvas ref={canvasRef} className="canvas"/>
       </div>
   );
