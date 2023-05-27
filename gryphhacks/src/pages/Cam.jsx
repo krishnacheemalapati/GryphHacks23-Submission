@@ -4,7 +4,7 @@ import Header from '../sitewide/Header.jsx'
 import Footer from './../sitewide/Footer'
 import LandingBody from './LandingBody'
 import Webcam from "react-webcam";
-import {useEffect, useRef} from "react";
+import {useState, useEffect, useRef} from "react";
 import switchCam from "./Layout"
 const dimensions = {
   width: 800,
@@ -12,6 +12,7 @@ const dimensions = {
 }
 function Cam() {
 
+  const [transcript, setTranscript] = useState("");
   const webcamRef = useRef();
   const canvasRef = useRef();
   const { width, height } = dimensions;
@@ -52,6 +53,8 @@ function Cam() {
             ctx.fillStyle = "#FF0000";
             const { label, x, y, width, height } = detection;
             ctx.fillText(label, x, y - 5);
+            console.log(transcript + " " + label)
+            setTranscript(transcript + " " + label) //replace "z" with
             ctx.rect(x, y, width, height);
             ctx.stroke();
           });
@@ -65,7 +68,7 @@ function Cam() {
       }
     }
 
-  }, [width, height]);
+  }, [width, height, transcript]);
 
   return (
       <div>
@@ -80,9 +83,10 @@ function Cam() {
               <strong>Detected Signs:</strong>
             </div>
             <div className="para-text">
-            Our tool allows users to instantly determine the desired sign being 
+                {transcript}
+            {/* Our tool allows users to instantly determine the desired sign being 
             used to communicate through the video feed using machine learning
-            models to provide high accuracy predictions
+            models to provide high accuracy predictions */}
             </div>
         </div>  
         </div>
