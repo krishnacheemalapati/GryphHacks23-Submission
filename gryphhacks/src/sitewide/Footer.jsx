@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './../Images/Logo.png'
+import LogoWide from './../Images/LogoWide.png'
 import { useNavigate } from "react-router-dom";
 
 export default function Footer() {
@@ -16,7 +16,7 @@ export default function Footer() {
 
     return (
         <div className='nav foot page'>
-            <img src={Logo} className = "fifteenpercent" alt="AI Sign Logo"  onClick={onClickImg}></img>
+            <img src={LogoWide} className = "fifteenpercent" alt="AI Sign Logo"  onClick={onClickImg}></img>
             <div className="footer-text">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
             © AISign, Inc. 2022. All rights reserved. Use of
             this site constitutes acceptance of our User Agreement and <a href="/privacy" onClick={onClickPrivacy}>Privacy Policy and Cookie Statement</a>.<br></br> 

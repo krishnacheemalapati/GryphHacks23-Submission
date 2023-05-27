@@ -1,10 +1,14 @@
 import * as ml5 from "ml5";
+import React from 'react'
+import Header from '../sitewide/Header.jsx'
+import Footer from './../sitewide/Footer'
+import LandingBody from './LandingBody'
 import Webcam from "react-webcam";
 import {useEffect, useRef} from "react";
 import switchCam from "./Layout"
 const dimensions = {
   width: 800,
-  height: 500
+  height: 600
 }
 function Cam() {
 
@@ -65,8 +69,10 @@ function Cam() {
 
   return (
       <div>
+        <Header />
         <Webcam ref={webcamRef} className="webcam"/>
         <canvas ref={canvasRef} className="canvas"/>
+        <Footer className="lessGap"/>
       </div>
   );
 }
