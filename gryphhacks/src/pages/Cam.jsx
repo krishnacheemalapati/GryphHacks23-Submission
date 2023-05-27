@@ -70,8 +70,22 @@ function Cam() {
   return (
       <div>
         <Header />
-        <Webcam ref={webcamRef} className="webcam"/>
-        <canvas ref={canvasRef} className="canvas"/>
+        <div className="videoPortion">
+        <div className="videoFeed">
+          <Webcam ref={webcamRef} className="webcam"/>
+          <canvas ref={canvasRef} className="canvas"/>
+        </div>
+        <div className="para-with-subtext camerapage">
+            <div className="subtext">
+              <strong>Detected Signs:</strong>
+            </div>
+            <div className="para-text">
+            Our tool allows users to instantly determine the desired sign being 
+            used to communicate through the video feed using machine learning
+            models to provide high accuracy predictions
+            </div>
+        </div>  
+        </div>
         <Footer className="lessGap"/>
       </div>
   );

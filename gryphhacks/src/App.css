@@ -69,7 +69,7 @@ body {
 }
 
 .lessGap {
-  margin-top: -10%;
+  padding-top: 40% !important;
 }
 
 :root {
@@ -153,6 +153,12 @@ input {
   justify-content: space-between;
   padding: 5px;
   align-items: center;
+}
+
+.camerapage {
+  margin-top: -20% !important;
+  margin-left: 52% !important;
+  margin-bottom: 10% !important;
 }
 
 .input {
