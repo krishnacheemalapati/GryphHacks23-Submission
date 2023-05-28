@@ -58,6 +58,10 @@ body {
   margin: 0;
 }
 
+.footpagetranscript {
+  padding-left: 5%;
+}
+
 @font-face {
   font-family: "WorkSans";
   src: url('./Images/WorkSans-VariableFont_wght.ttf');
@@ -69,7 +73,7 @@ body {
 }
 
 .lessGap {
-  padding-top: 40% !important;
+  margin-top: 17% !important;
 }
 
 :root {
@@ -157,7 +161,7 @@ input {
 
 .camerapage {
   margin-top: -20% !important;
-  margin-left: 52% !important;
+  margin-left: 57% !important;
   margin-bottom: 10% !important;
 }
 
