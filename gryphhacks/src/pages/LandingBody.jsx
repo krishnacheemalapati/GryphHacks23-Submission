@@ -18,13 +18,13 @@ export default function LandingBody() {
           <div className="main-text">
           Communicate through sign language with <strong>ease.</strong>
           </div>
-          <div className="buttonp join-button" onClick={onClickDemo}>Try it out</div>
+          <div className="buttonp join-button" onClick={onClickDemo}>View Demo</div>
         </div>
       </div>
       <div className="LandingPage page">
         <div>
           <div className="create-text" id="feature">
-          Communicate through sign language with <strong>ease.</strong>
+          Convert ASL to English like <strong>never before.</strong>
           </div>
         </div>
         <div className="para left">
@@ -46,9 +46,9 @@ export default function LandingBody() {
               <strong>Export transcripts for longer conversations</strong>
             </div>
             <div className="para-text">
-              Instead of having to import each intent manually, our voiceflow
-              integration allows users to create Voiceflow intent blocks with
-              the click of a button, improving development times dramatically!
+              Our application allows you to create transcripts consisting of 
+              consecutive signs to allow for longer conversations to be
+              translated into text.
             </div>
           </div>
           <img
