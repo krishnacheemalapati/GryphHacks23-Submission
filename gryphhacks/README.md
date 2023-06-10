@@ -48,6 +48,20 @@ User Interface (UI): We designed a user-friendly interface that displayed the tr
 
 Integration and Deployment: Once the core functionality was implemented, we integrated all the components and tested the application extensively. We ensured compatibility across different platforms (i.e. Mac and Windows) and deployed instances of the website locally.
 
+## How to Use AI SIGN
+
+To run this project locally, clone the project directory. Then run 
+
+### `npm install`
+
+This will install the required packages and node modules to run the React application. Then, you can run
+
+### `npm start`
+
+to run the app locally in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+
 
 
 
