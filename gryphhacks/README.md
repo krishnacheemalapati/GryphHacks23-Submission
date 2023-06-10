@@ -50,7 +50,7 @@ Integration and Deployment: Once the core functionality was implemented, we inte
 
 ## How to Use AI SIGN
 
-To run this project locally, clone the project directory. Then run 
+To run this project locally, you'll need to install clone the project directory. Open a terminal window, and ensure that you are in the gryphhacks folder. Then run 
 
 ### `npm install`
 
@@ -59,9 +59,8 @@ This will install the required packages and node modules to run the React applic
 ### `npm start`
 
 to run the app locally in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser. 
+To try the ASL trasncription, click on the "View Demo" button on the center of the home page.
 
 
 
