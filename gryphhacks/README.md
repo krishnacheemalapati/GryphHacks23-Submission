@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# AI SIGN
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+AI SIGN is an application that utilizes computer vision to translate ASL hand movements and signs captured by a webcam into English text. The application detects hand gestures and movements in real-time and processes them to determine the corresponding sign language interpretation. The translated text is then displayed on the screen, enabling users to understand and communicate effectively with those using sign language.
 
 ## Available Scripts
 
