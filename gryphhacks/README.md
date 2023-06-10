@@ -1,6 +1,36 @@
 # AI SIGN
 
+## About
+
 AI SIGN is an application that utilizes computer vision to translate ASL hand movements and signs captured by a webcam into English text. The application detects hand gestures and movements in real-time and processes them to determine the corresponding sign language interpretation. The translated text is then displayed on the screen, enabling users to understand and communicate effectively with those using sign language.
+
+## Contributors ✨
+
+Our hackathon team consisted of:
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://krishnacheemalapati.github.io/"><img src="https://avatars.githubusercontent.com/u/45082599?v=4" width="100px;" alt="Krishna Cheemalapati"/><br /><sub><b>Krishna Cheemalapati</b></sub></a><br /></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ConverseScholar"><img src="https://avatars.githubusercontent.com/u/97484565?v=4" width="100px;" alt="Chhavi Shah"/><br /><sub><b>Chhavi Shah</b></sub></a><br /></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## Available Scripts
 
