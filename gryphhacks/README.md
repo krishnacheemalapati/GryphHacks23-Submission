@@ -16,6 +16,8 @@ Our hackathon team consisted of:
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://krishnacheemalapati.github.io/"><img src="https://avatars.githubusercontent.com/u/45082599?v=4" width="100px;" alt="Krishna Cheemalapati"/><br /><sub><b>Krishna Cheemalapati</b></sub></a><br /></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ConverseScholar"><img src="https://avatars.githubusercontent.com/u/97484565?v=4" width="100px;" alt="Chhavi Shah"/><br /><sub><b>Chhavi Shah</b></sub></a><br /></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/joutad"><img src="https://avatars.githubusercontent.com/u/72181663?v=4" width="100px;" alt="Joudat Haroon"/><br /><sub><b>Joudat Haroon</b></sub></a><br /></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/DevinForr"><img src="https://avatars.githubusercontent.com/u/117605849?v=4" width="100px;" alt="Devin Forrest"/><br /><sub><b>Devin Forrest</b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
